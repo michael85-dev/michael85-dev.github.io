@@ -59,7 +59,7 @@
                             <a onclick="skills()" id="skills-toggle" href="./Skills.html">Skills</a>
                         </li> -->
                         <li class="list-group-item" onclick="location.href='./Projects.html'">Projects</li>
-                        <li class="list-group-item">Contract</li>
+                        <li class="list-group-item" onclick="location.href='./contacts.html'">Contract</li>
                     </ul>
                     <input type="text" class="form-control mb-2" placeholder="Search">
                     <!-- d-grid : 한줄에 채워서 표시 가능 -->
@@ -87,7 +87,7 @@
                     <a href="#" class="nav-link text-light" onclick="location.href='./projects.html'">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-light">Contacts</a>
+                    <a href="#" class="nav-link text-light" onclick="location.href='./contacts.html'">Contacts</a>
                 </li>
             </ul>
             <!-- d-flex : 일자로 표현되게 해줌 -->
@@ -111,26 +111,34 @@
             <h2>Projects</h2>
             <h4 class="mb-4" style="background-color: #efefef">진행했던 프로젝트를 요약합니다.</h4>
             <div class="row mb-3"> 
-            <div class="row py-3" style="background-color: #efefef">Mechanical Engineering</div>
-                <div class="col-4">
-                    <img class="rounded" src="./images/image1.jpg" alt="개발자">
-                    <p>Spring Framework를 이용한 0000</p>
-                    <p>개발기간: 2021.00.00 ~ 2021.00.00</p>
+            <!-- 왜 text-center가 적용이 안되지? -->
+                <div class="row py-1" style="background-color: #efefef">
+                    <div class="text-center">
+                        Mechanical Engineering
+                    </div>
                 </div>
                 <div class="col-4">
-                    <img class="rounded" src="./images/image1.jpg" alt="개발자">
-                    <p>Spring Framework를 이용한 0000</p>
-                    <p>개발기간: 2021.00.00 ~ 2021.00.00</p>
+                    <img class="rounded" src="./images/image1.jpg" alt="공학자">
+                    <p>Flow simuation을 이용한 연소기 내부의 온도 균일도 파악</p>
+                    <p>진행기간: ??</p>
+                </div>
+                <div class="col-4">
+                    <img class="rounded" src="./images/image1.jpg" alt="공학자">
+                    <p>New product 개발을 위한 구조변경 및 modify</p>
+                    <p>진행기간: ??</p>
                 </div>
                 <div class="col-4">
                     <!-- 각 이미지에 대해서 자유 자재로 사이즈가 축소 확대 될 수 있게 넣어줘야 함 -->
-                    <img class="rounded" src="../images/image1.jpg" alt="개발자">
-                    <p>Spring Framework를 이용한 0000</p>
-                    <p>개발기간: 2021.00.00 ~ 2021.00.00</p>
+                    <img class="rounded" src="../images/image1.jpg" alt="공학자">
+                    <p>균일 온도를 위한 설계 변경 및 테스트</p>
+                    <p>진행기간: 2021.00.00 ~ 2021.00.00</p>
                 </div>
             </div>
              <div class="row mb-3">
-             <div class="row py-3" style="background-color: #efefef">Programming</div>
+             <div class="row py-1" style="background-color: #efefef">
+                    <div>Programming
+                    </div>
+                </div>
                 <div class="col-4">
                     <img class="rounded" src="./images/image1.jpg" alt="개발자">
                     <p>--</p>
@@ -150,22 +158,24 @@
                 </div>
             </div>
              <div class="row py-3">
-             <div class="row text-center mb-3" style="background-color: #efefef">Mathmatics</div>
-                <div class="col-4">
-                    <img class="rounded" src="./images/image1.jpg" alt="개발자">
-                    <p>Spring Framework를 이용한 0000</p>
-                    <p>개발기간: 2021.00.00 ~ 2021.00.00</p>
+             <div class="row text-center py-1" style="background-color: #efefef">
+                 <div>Mathmatics</div>
                 </div>
                 <div class="col-4">
-                    <img class="rounded" src="./images/image1.jpg" alt="개발자">
-                    <p>Spring Framework를 이용한 0000</p>
-                    <p>개발기간: 2021.00.00 ~ 2021.00.00</p>
+                    <img class="rounded" src="./images/image1.jpg" alt="수학자">
+                    <p>Topology를 이용한 3D 다항체의 형태 해석 및 증명</p>
+                    <p>개발기간: ??</p>
+                </div>
+                <div class="col-4">
+                    <img class="rounded" src="./images/image1.jpg" alt="수학자">
+                    <p>수치해석을 통한 근사값과 수학적 근사값의 오차범위 비교</p>
+                    <p>개발기간: ??</p>
                 </div>
                 <div class="col-4">
                     <!-- 각 이미지에 대해서 자유 자재로 사이즈가 축소 확대 될 수 있게 넣어줘야 함 -->
-                    <img class="rounded" src="../images/image1.jpg" alt="개발자">
-                    <p>Spring Framework를 이용한 0000</p>
-                    <p>개발기간: 2021.00.00 ~ 2021.00.00</p>
+                    <img class="rounded" src="../images/image1.jpg" alt="수학자">
+                    <p>적절한 암호체계를 위한 RSA방식 분석 및 개선안 파악</p>
+                    <p>개발기간: ??</p>
                 </div>
             </div>
         </div>
