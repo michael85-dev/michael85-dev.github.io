@@ -17,6 +17,7 @@
         }
     </style>
     <script src="./css/bootstrap.js"></script>
+    <script src="./JavaScript/sign_in.js"></script>
 </head>
 <body>
     <!-- semantic tag : 구분용 태그 -->
@@ -90,9 +91,9 @@
             <!-- 입력 및 가입 로그인 항목 -->
             <div class="d-flex">
                 <input type="text" class="form-control" placeholder="Search">
-                <button class="btn btn-link text-light text-decoration-none flex-shrink-0" onclick="login()">Sign in</button>
+                <button class="btn btn-link text-light text-decoration-none flex-shrink-0" onclick="location.href='./sign_in.html'">Sign in</button>
                 <!-- flex-shrink-0 : 아웃라인 찌그러지지않게 자동으로 맞춰주는 것.? -->
-                <button class="btn btn-outline-light flex-shrink-0" onclick="location.href='./signup.html'">Sign up</button>
+                <button class="btn btn-outline-light flex-shrink-0" onclick="location.href='./sign_up.html'">Sign up</button>
             </div>
 
         </div>
@@ -102,6 +103,24 @@
     </header>
     <section>
         <div>
+            <div class="row">
+                <div class="col-2">
+
+                </div>
+                <div class="col-8 py-3" style="background-color:antiquewhite">
+                    아이디 <br>
+                    <input type="text" id="idCheck" onblur="idCheck()" placeholder="아이디를 입력하세요" class="mb-5">
+                    <br>
+                    비밀번호 <br>
+                    <input type="text" id="pwCheck" onblur="pwCheck()" placeholder="비밀번호를 입력하세요" class="mb-5">
+                    <span id="checkResult"></span>
+                    <br>
+                    <button onClick="run()" class="text-center">전송</button>
+                </div>
+                <div class="col-2">
+
+                </div>
+            </div>
         </div>
     </section>
 

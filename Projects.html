@@ -94,9 +94,9 @@
             <!-- 입력 및 가입 로그인 항목 -->
             <div class="d-flex">
                 <input type="text" class="form-control" placeholder="Search">
-                <button class="btn btn-link text-light text-decoration-none flex-shrink-0" onclick="login()">Sign in</button>
+                <button class="btn btn-link text-light text-decoration-none flex-shrink-0"  onclick="location.href='./sign_in.html'">Sign in</button>
                 <!-- flex-shrink-0 : 아웃라인 찌그러지지않게 자동으로 맞춰주는 것.? -->
-                <button class="btn btn-outline-light flex-shrink-0" onclick="location.href='./signup.html'">Sign up</button>
+                <button class="btn btn-outline-light flex-shrink-0" onclick="location.href='./sign_up.html'">Sign up</button>
             </div>
 
         </div>
@@ -107,10 +107,50 @@
     <!-- 본문영역 -->
 
     <section id="projects">
-        <div class="container mb-2 text-center bg-primary py-3">
+        <div class="container mb-2 text-center py-3">
             <h2>Projects</h2>
-            <h4 class="mb-4">진행했던 프로젝트를 요약합니다.</h4>
-            <div class="row">
+            <h4 class="mb-4" style="background-color: #efefef">진행했던 프로젝트를 요약합니다.</h4>
+            <div class="row mb-3"> 
+            <div class="row py-3" style="background-color: #efefef">Mechanical Engineering</div>
+                <div class="col-4">
+                    <img class="rounded" src="./images/image1.jpg" alt="개발자">
+                    <p>Spring Framework를 이용한 0000</p>
+                    <p>개발기간: 2021.00.00 ~ 2021.00.00</p>
+                </div>
+                <div class="col-4">
+                    <img class="rounded" src="./images/image1.jpg" alt="개발자">
+                    <p>Spring Framework를 이용한 0000</p>
+                    <p>개발기간: 2021.00.00 ~ 2021.00.00</p>
+                </div>
+                <div class="col-4">
+                    <!-- 각 이미지에 대해서 자유 자재로 사이즈가 축소 확대 될 수 있게 넣어줘야 함 -->
+                    <img class="rounded" src="../images/image1.jpg" alt="개발자">
+                    <p>Spring Framework를 이용한 0000</p>
+                    <p>개발기간: 2021.00.00 ~ 2021.00.00</p>
+                </div>
+            </div>
+             <div class="row mb-3">
+             <div class="row py-3" style="background-color: #efefef">Programming</div>
+                <div class="col-4">
+                    <img class="rounded" src="./images/image1.jpg" alt="개발자">
+                    <p>--</p>
+                    <p>개발기간: 2021.00.00 ~ 2021.00.00</p>
+                </div>
+                <div class="col-4">
+                    <img class="rounded" src="./images/image1.jpg" alt="개발자">
+                    <p>--</p>
+                    <p>개발기간: 2021.00.00 ~ 2021.00.00</p>
+                </div>
+                <div class="col-4">
+                    <!-- 각 이미지에 대해서 자유 자재로 사이즈가 축소 확대 될 수 있게 넣어줘야 함 -->
+                    <img class="rounded" src="../images/image1.jpg" alt="개발자">
+                    <p>Html & Database를 이용한 MoneyManager</p>
+                    <p>개발이유 : 개인용도의 클라우드형 가계부 필요성</p>
+                    <p>개발기간: 2021.11..20 ~ </p>
+                </div>
+            </div>
+             <div class="row py-3">
+             <div class="row text-center mb-3" style="background-color: #efefef">Mathmatics</div>
                 <div class="col-4">
                     <img class="rounded" src="./images/image1.jpg" alt="개발자">
                     <p>Spring Framework를 이용한 0000</p>
