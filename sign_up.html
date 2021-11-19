@@ -134,7 +134,7 @@
                     </div>
                     <div class="mb-3">
                         이메일 <br>
-                        <input type="text" onblur="email()" placeholder="이메일을 입력하세요"> @ <input type="text" id="emailResult">
+                        <input type="text" onblur="email()" id="em" placeholder="이메일을 입력하세요"> @ <input type="text" id="emailResult">
                         <select id="email" onchange="emailSelect()">
                             <option selected>선택하세요</option>
                             <option id="gmail">gmail.com</option>
@@ -144,6 +144,8 @@
                             <option id="yahoo.com">yahoo.com</option>
                             <option id="hanmail.net">hanmail.net</option>
                         </select> 
+                        <span id = "emailCheck">
+                        </span>
                     </div>
                     <div class="mb-3">
                         성별 <br>
